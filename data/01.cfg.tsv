@@ -1,0 +1,6 @@
+sid	study	author	source	readtype	stranded	meta	total	assigned	genotype	tissue	reference	mapper
+sp014	5genos		local	illumina	no				5 genotypes	seeding_leaf3	B73	bismark
+sp028	sp028		local	illumina	no					seeding_leaf3	B73	bismark
+sp029	sp029		local	illumina	no					seeding_leaf3	B73	bismark
+sp053	sp053		local	illumina	no						B73	bismark
+sp056	sp056		local	illumina	no						B73	bismark
