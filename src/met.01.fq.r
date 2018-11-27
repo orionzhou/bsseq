@@ -1,8 +1,6 @@
-#{{{
-source("met.fun.r")
-source("sra.R")
+source("functions.R")
+source(file.path(dirr,"sra.R"))
 t_cfg %>% select(sid, study, author) %>% print(n=40)
-#}}}
 
 get_raw_read_list <- function(ti, sid) {
 #{{{

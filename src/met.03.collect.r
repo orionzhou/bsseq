@@ -1,5 +1,5 @@
-source("me.fun.r")
-source("sra.R")
+source("functions.R")
+source(file.path(dirr,"sra.R")
 t_cfg
 
 sid = 'mec03'
