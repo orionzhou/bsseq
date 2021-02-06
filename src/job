@@ -1,0 +1,11 @@
+#PBS -l nodes=1:ppn=1,mem=200gb,walltime=2:00:00
+#PBS -m ae
+#PBS -M zhoux379@umn.edu
+#PBS -q ram256g
+
+source activate work
+cd $bs/data/cache/bs13a
+
+cd $bs/src
+Rscript --no-init-file --no-restore bs.run.R
+
